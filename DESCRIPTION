@@ -1,0 +1,58 @@
+Package: dpCustomFunctions
+Title: Custom R Functions for CyTOF and Single-Cell Analysis
+Version: 0.1.0
+Authors@R:
+    person("David", "Priest", role = c("aut", "cre"),
+           email = "david.priest@example.com")
+Description: A collection of custom plotting and utility functions for CyTOF
+    (mass cytometry) and single-cell RNA-seq analysis. Extends CATALYST and
+    Seurat with additional visualisation functions, spillover QC tools, SCE
+    manipulation helpers, division-profiling plots, and pipeline output
+    utilities. Designed to work within a {targets} pipeline workflow.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+biocViews:
+Imports:
+    ggplot2,
+    cowplot,
+    RColorBrewer,
+    ComplexHeatmap,
+    circlize,
+    SingleCellExperiment,
+    SummarizedExperiment,
+    S4Vectors,
+    BiocGenerics,
+    CATALYST,
+    dplyr,
+    tidyr,
+    reshape2,
+    scales,
+    ggrepel,
+    ggbeeswarm,
+    grid,
+    openxlsx,
+    jsonlite,
+    readr,
+    stringr,
+    magrittr,
+    methods
+Suggests:
+    ggrastr,
+    Seurat,
+    diffcyt,
+    ConsensusClusterPlus,
+    patchwork,
+    ggiraph,
+    htmlwidgets,
+    shiny,
+    ggridges,
+    viridis,
+    rstatix,
+    rlang,
+    ggh4x,
+    ggcyto,
+    flowCore,
+    knitr,
+    rmarkdown

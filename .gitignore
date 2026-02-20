@@ -1,0 +1,18 @@
+# R session artefacts
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+*.Rproj.user/
+
+# devtools / pkgdown build output
+/doc/
+/Meta/
+/inst/doc/
+
+# roxygen2 compiled man pages (committed)
+# man/*.Rd  ← intentionally tracked; do not ignore
+
+# OS junk
+.DS_Store
+*.DS_Store
