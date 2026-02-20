@@ -9,7 +9,7 @@ Description: A collection of custom plotting and utility functions for CyTOF
     Seurat with additional visualisation functions, spillover QC tools, SCE
     manipulation helpers, division-profiling plots, and pipeline output
     utilities. Designed to work within a {targets} pipeline workflow.
-License: MIT + file LICENSE
+License: GPL-2
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
